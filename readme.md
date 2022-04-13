@@ -1,5 +1,5 @@
 # Rest API
-API to GET, POST, DELETE a tweet
+API to GET, POST, DELETE a tweet and DOCKERFILE
 
 # ScreenShoot
 ![JustTheApp](https://user-images.githubusercontent.com/94149435/163102359-71de764e-5098-4be4-b532-4b0958c45112.png)
@@ -17,7 +17,6 @@ npm run dev
 in the terminal:
 node src/index.js
 
-
-#� �A�S�2�
-�
-�
+#For Dockerfile
+docker build -t a5 .       
+docker run -dp 3000:3000 a5
